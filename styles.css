@@ -1,10 +1,17 @@
 /*
   Name: Xiaoqi Long
-  This is the styles.css page for my cat's personal website. It is used by all pages
+  This is the styles.css page for my poetry website.
   in their website.
 */
 
+/* colors */
+.tag {
+  background-color: #fff;
+  border: 1px solid grey;
+  color: grey;
+}
 
+/* background and fonts */
 body {
   /*
   image source: https://www.iconfont.cn/
@@ -17,8 +24,13 @@ body {
   font-family: 'Ma Shan Zheng', cursive;
 }
 
+#romaji, footer {
+  font-family: 'Montserrat', sans-serif;
+}
 
-.heading {
+/* positioning */
+
+#heading {
   position: absolute;
   top: 1vh;
   width: 100%;
@@ -27,11 +39,7 @@ body {
   justify-content: space-between;
 }
 
-.romaji, footer {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.main-wrapper {
+#main-wrapper {
   position: relative;
   top: -6vh;
   height: 90vh;
@@ -56,7 +64,7 @@ body {
   font-size: 24px;
 }
 
-.main-sentence {
+#main-sentence {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -65,17 +73,25 @@ body {
   text-align: center;
 }
 
-.tag, label {
-  background-color: #fff;
-  border: 1px solid grey;
-  color: grey;
+.tag {
   padding-right: .6em;
   padding-left: .6em;
   border-radius: 10rem;
 }
 
+#random {
+  width: 20px;
+  height: 20px;
+}
+
+#random:hover {
+  cursor: pointer;
+}
+
+/*
 .choice {
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
 }
+*/
