@@ -1,0 +1,81 @@
+/*
+  Name: Xiaoqi Long
+  This is the styles.css page for my cat's personal website. It is used by all pages
+  in their website.
+*/
+
+
+body {
+  /*
+  image source: https://www.iconfont.cn/
+  https://www.iconfont.cn/illustrations/detail?spm=a313x.7781069.1998910419.d9df05512&cid=31466
+  */
+  background-image: url('imgs/tree.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+
+.heading {
+  position: absolute;
+  top: 1vh;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+}
+
+.romaji, footer {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-wrapper {
+  position: relative;
+  top: -6vh;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#def {
+  vertical-align: middle;
+  line-height: normal;
+  white-space: normal;
+  display: inline-block;
+  font-size: 48px;
+}
+
+#tags {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.main-sentence {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.tag, label {
+  background-color: #fff;
+  border: 1px solid grey;
+  color: grey;
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+.choice {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
